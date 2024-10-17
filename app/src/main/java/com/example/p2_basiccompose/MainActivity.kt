@@ -55,6 +55,7 @@ fun basiclayout(modifier: Modifier = Modifier){
         verticalArrangement = Arrangement.Center,
         modifier = Modifier
             .fillMaxSize()
+            .padding(top = 20.dp)
     )
     {
 
