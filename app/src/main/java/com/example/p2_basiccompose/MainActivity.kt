@@ -97,6 +97,11 @@ fun basiclayout(modifier: Modifier = Modifier){
         Text(text = "20220140150", style = TextStyle
             (fontSize = 20.sp),
             modifier = Modifier.padding(top = 5.dp))
+
+        Image(painter = painterResource(id = R.drawable.rangga),
+            contentDescription = null,
+        )
+
     }
 
 }
