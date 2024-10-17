@@ -63,9 +63,12 @@ fun basiclayout(modifier: Modifier = Modifier){
             .padding(top = 20.dp)
     )
     {
-        Text(text = "Login")
-        Text(text = "Ini adalah halaman login")
+        Text(text = "Login", style = TextStyle
+            (fontSize = 80.sp
+            )
 
+        )
+        Text(text = "Ini adalah halaman login")
     }
 
 }
