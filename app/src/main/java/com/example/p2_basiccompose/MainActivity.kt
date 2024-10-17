@@ -83,12 +83,16 @@ fun basiclayout(modifier: Modifier = Modifier){
                 .padding(top = 20.dp),
             )
         Text(text = "Nama", style = TextStyle
-            (fontSize = 15.sp),
+            (fontSize = 15.sp,
             fontFamily = customFont2,
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.Bold)
         )
 
-        Text(text = "Rangga Azhar Fadillah")
+        Text(text = "Rangga Azhar Fadillah", style = TextStyle
+            (color = Color.Red,
+            fontSize = 15.sp)
+            )
+
         Text(text = "20220140150")
     }
 
