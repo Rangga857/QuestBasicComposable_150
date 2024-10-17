@@ -43,7 +43,12 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+val customFont1 = FontFamily(
+    Font(R.font.medium)
+)
+val customFont2 = FontFamily(
+    Font(R.font.thin)
+)
 @Composable
 fun basiclayout(modifier: Modifier = Modifier){
     Image(
