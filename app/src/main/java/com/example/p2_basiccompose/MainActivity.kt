@@ -100,10 +100,9 @@ fun basiclayout(modifier: Modifier = Modifier){
 
         Image(painter = painterResource(id = R.drawable.rangga),
             contentDescription = null,
+            modifier = Modifier.size(400.dp)
         )
-
     }
-
 }
 
 @Preview(showBackground = true)
