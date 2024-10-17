@@ -64,6 +64,8 @@ fun basiclayout(modifier: Modifier = Modifier){
     )
     {
         Text(text = "Login")
+        Text(text = "Ini adalah halaman login")
+
     }
 
 }
