@@ -49,6 +49,7 @@ fun basiclayout(modifier: Modifier = Modifier){
     Image(
         painter = painterResource(id = R.drawable.background),
         contentDescription = null,
+        modifier = Modifier.fillMaxSize(),
         )
 
 }
