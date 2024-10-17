@@ -76,6 +76,10 @@ fun basiclayout(modifier: Modifier = Modifier){
 
             modifier = Modifier.padding(top = 10.dp)
         )
+        Image(painter = painterResource(id = R.drawable.logoumy),
+            contentDescription = null
+            )
+
     }
 
 }
