@@ -90,7 +90,8 @@ fun basiclayout(modifier: Modifier = Modifier){
 
         Text(text = "Rangga Azhar Fadillah", style = TextStyle
             (color = Color.Red,
-            fontSize = 15.sp)
+            fontSize = 15.sp),
+            modifier = Modifier.padding(top = 5.dp)
             )
 
         Text(text = "20220140150")
