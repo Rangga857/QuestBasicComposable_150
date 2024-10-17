@@ -83,7 +83,7 @@ fun basiclayout(modifier: Modifier = Modifier){
                 .padding(top = 20.dp),
             )
         Text(text = "Nama")
-
+        Text(text = "Rangga Azhar Fadillah")
     }
 
 }
