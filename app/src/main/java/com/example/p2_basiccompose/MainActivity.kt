@@ -84,6 +84,7 @@ fun basiclayout(modifier: Modifier = Modifier){
             )
         Text(text = "Nama")
         Text(text = "Rangga Azhar Fadillah")
+        Text(text = "20220140150")
     }
 
 }
