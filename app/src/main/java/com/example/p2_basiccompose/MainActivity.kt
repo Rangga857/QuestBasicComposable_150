@@ -51,6 +51,12 @@ fun basiclayout(modifier: Modifier = Modifier){
         contentDescription = null,
         modifier = Modifier.fillMaxSize(),
         )
+    Column(horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    )
+    {
+
+    }
 
 }
 
