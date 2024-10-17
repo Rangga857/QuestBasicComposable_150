@@ -73,6 +73,8 @@ fun basiclayout(modifier: Modifier = Modifier){
             (fontSize = 15.sp,
             fontFamily = customFont2,
             fontWeight = FontWeight.Bold),
+
+            modifier = Modifier.padding(top = 10.dp)
         )
     }
 
