@@ -94,7 +94,9 @@ fun basiclayout(modifier: Modifier = Modifier){
             modifier = Modifier.padding(top = 5.dp)
             )
 
-        Text(text = "20220140150")
+        Text(text = "20220140150", style = TextStyle
+            (fontSize = 20.sp),
+            modifier = Modifier.padding(top = 5.dp))
     }
 
 }
