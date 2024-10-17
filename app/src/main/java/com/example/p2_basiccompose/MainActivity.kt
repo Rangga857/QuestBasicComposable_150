@@ -82,7 +82,11 @@ fun basiclayout(modifier: Modifier = Modifier){
                 .size(250.dp)
                 .padding(top = 20.dp),
             )
-        Text(text = "Nama")
+        Text(text = "Nama", style = TextStyle
+            (fontSize = 15.sp),
+            fontFamily = customFont2
+        )
+
         Text(text = "Rangga Azhar Fadillah")
         Text(text = "20220140150")
     }
