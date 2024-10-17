@@ -64,7 +64,8 @@ fun basiclayout(modifier: Modifier = Modifier){
     )
     {
         Text(text = "Login", style = TextStyle
-            (fontSize = 80.sp
+            (fontSize = 80.sp,
+            fontFamily = customFont1,
             )
 
         )
